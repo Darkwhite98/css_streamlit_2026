@@ -7,8 +7,32 @@ st.title("Researcher Profile Page with STEM Data")
 
 # Collect basic information
 name = "Mr. Junior Netshipise"
-field = "Physiology"
+field = "MSc Medicine Physiology"
 institution = "Sefako Makgatho Health Sciences University"
+
+# ===============================
+# Personal Summary Section
+# ===============================
+
+st.header("Personal Summary")
+
+st.markdown(
+    """
+    I am a life sciences graduate with a strong academic foundation in **physiology, molecular biology,
+    zoology, and botany**, supported by hands-on exposure to laboratory-based research and scientific
+    data handling. My training has equipped me with the ability to interpret biological data,
+    follow structured research protocols, and maintain high standards of accuracy and documentation.
+
+    I have experience working within **research and clinical environments**, where attention to detail,
+    data integrity, and regulatory awareness are essential. Through academic projects, laboratory work,
+    and participation in scientific forums, I have developed a growing interest in biomedical research,
+    clinical studies, and translational science.
+
+    This dashboard serves as a personal showcase of how I organize, explore, and interpret life sciences
+    data—reflecting both my technical skills and my commitment to continuous learning within the
+    biological and health sciences.
+    """
+)
 
 # Display basic profile information
 st.header("Researcher Overview")
